@@ -1,0 +1,104 @@
+.todo-app {
+  max-width: 1270px;
+  margin: auto;
+  text-align: center;
+}
+
+.filter-buttons {
+  width: 600px;
+  margin: 50px auto 30px auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  width: 150px;
+  font-size: 20px;
+  border: none;
+  background: none;
+  color: #333;
+}
+
+.buttons button:hover {
+  border-bottom: 5px solid #0084f5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons .All {
+  border-bottom: 5px solid #0084f5;
+  border-radius: 5px;
+}
+
+.buttons .Active {
+  border-bottom: 5px solid #0084f5;
+  border-radius: 5px;
+}
+
+.buttons .Completed {
+  border-bottom: 5px solid #0084f5;
+  border-radius: 5px;
+}
+
+form input {
+  width: 450px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 30px;
+}
+
+form button {
+  width: 80px;
+  height: 50px;
+  background-color: #0084f5;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.todo-list {
+  margin: 25px 0;
+}
+
+.todo-list .todo-item {
+  max-width: 550px;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+.text input[type="checkbox"] {
+  width: 23px;
+  height: 23px;
+  border: 1px solid black;
+}
+
+.todo-item button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.delete-all {
+  width: 120px;
+  height: 45px;
+  background-color: #ff3041;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-all i {
+  margin-right: 5px;
+}
