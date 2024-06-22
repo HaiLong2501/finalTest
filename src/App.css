@@ -43,7 +43,7 @@
   border-radius: 5px;
 }
 
-form input {
+.todo-input input {
   width: 450px;
   height: 50px;
   border-radius: 10px;
@@ -51,7 +51,7 @@ form input {
   margin-right: 30px;
 }
 
-form button {
+.todo-input button {
   width: 80px;
   height: 50px;
   background-color: #0084f5;
